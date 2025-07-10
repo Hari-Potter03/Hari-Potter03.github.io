@@ -1,20 +1,13 @@
-# Node
 node_modules/
+.cache/
+public/
+yarn.lock
+package-lock.json
+.env
+.env.*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# dotenv environment files
-.env
-.env.* 
-
-# Gatsby files
-.cache/
-public/
-
-# OS / editor junk
 .DS_Store
 Thumbs.db
-
-# VSCode
 .vscode/
