@@ -6,22 +6,22 @@ module.exports = {
       name: 'GitHub',
       url: 'https://github.com/Hari-Potter03',
     },
-    {
+    /* {
       name: 'Instagram',
       url: 'https://www.instagram.com/bchiang7',
-    },
-    {
+    }, */
+    /* {
       name: 'Twitter',
       url: 'https://twitter.com/bchiang7',
-    },
+    }, */
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/srihari-srinivasan-58748b24b/',
     },
-    {
+    /* {
       name: 'Codepen',
       url: 'https://codepen.io/bchiang7',
-    },
+    }, */
   ],
 
   navLinks: [
