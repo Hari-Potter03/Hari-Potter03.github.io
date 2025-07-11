@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://sriharisrinivasan.com/sitemap.xml
+Host: https://sriharisrinivasan.com
