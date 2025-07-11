@@ -1,12 +1,12 @@
 {
-  "name": "v4",
-  "description": "Online Portfolio",
-  "version": "1.0.0",
-  "author": "Srihari Srinivasan <srsr9160@colorado.edu>",
   "homepage": "https://Hari-Potter03.github.io",
+  "name": "v4",
+  "description": "Personal Website V4",
+  "version": "1.0.0",
+  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hari-Potter03/Hari-Potter03.github.io"
+    "url": "https://github.com/bchiang7/v4"
   },
   "keywords": [
     "gatsby"
@@ -16,13 +16,14 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "predeploy": "gatsby build",
+    "deploy": "gh-pages -d public"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -52,6 +53,7 @@
     "gatsby-source-filesystem": "^3.4.0",
     "gatsby-transformer-remark": "^4.1.0",
     "gatsby-transformer-sharp": "^3.4.0",
+    "graphql": "^15.10.1",
     "lodash": "^4.17.19",
     "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
@@ -74,6 +76,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^6.3.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
