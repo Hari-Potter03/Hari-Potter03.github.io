@@ -1,11 +1,12 @@
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "Online Portfolio",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Srihari Srinivasan <srsr9160@colorado.edu>",
+  "homepage": "https://Hari-Potter03.github.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/Hari-Potter03/Hari-Potter03.github.io"
   },
   "keywords": [
     "gatsby"
@@ -15,6 +16,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
