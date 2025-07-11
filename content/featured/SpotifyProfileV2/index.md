@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'Example 2'
-cover: ''
+cover: './course-card.png'
 external: ''
 cta: ''
 tech:

@@ -1,7 +1,7 @@
 ---
 date: '2025-06-15'
 title: 'Predicting Likelihood of Survival of Titanic Passengers'
-cover: ''
+cover: './course-card.png'
 github: 'github repo'
 external: 'paper'
 tech:
