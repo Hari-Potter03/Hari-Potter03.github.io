@@ -1,13 +1,13 @@
 ---
 date: '2018-04-20'
-title: 'Spotify’s Top Tracks of 2017'
-github: 'https://github.com/bchiang7/spotify-top-tracks-2017'
+title: 'Template 2'
+github: ''
 external: ''
 tech:
   - R
   - Spotify Web API
-company: 'Northeastern'
+company: 'Affiliation'
 showInProjects: False
 ---
 
-R Project for my Data Science class at Northeastern to analyze the top Spotify tracks of 2017 and their audio features.
+Description
