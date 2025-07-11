@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Brittany Chiang',
+    title: 'Srihari Srinivasan',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+      'Srihari Srinivasan is a data scientist specializing in using data and machine learning to solve meaningful problems, building predictive models and data-driven products.',
+    siteUrl: 'https://sriharisrinivasan.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Srihari Srinivasan',
+        short_name: 'Srihari Srinivasan',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
-import { srConfig, email } from '@config';
+import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
@@ -57,15 +57,20 @@ const Contact = () => {
     <StyledContactSection id="contact" ref={revealContainer}>
       <h2 className="numbered-heading overline">What’s Next?</h2>
 
-      <h2 className="title">Get In Touch</h2>
+      <h2 className="title">Open to New Opportunities</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
-        Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+        I’m currently looking for new opportunities in data science and machine learning. If you
+        think I’d be a good fit for your team or have a project in mind, feel free to reach out —
+        I’d love to connect!
       </p>
 
-      <a className="email-link" href={`mailto:${email}`}>
-        Say Hello
+      <a
+        className="email-link"
+        href="https://www.linkedin.com/in/srihari-srinivasan-58748b24b/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Message Me!
       </a>
     </StyledContactSection>
   );
