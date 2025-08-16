@@ -1,6 +1,6 @@
 ---
 date: '3'
-title: 'Example 2'
+title: 'Spotify'
 cover: './course-card.png'
 external: ''
 cta: ''
